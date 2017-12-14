@@ -1,45 +1,75 @@
-*{    margin: 0;
+*{
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Encode Sans Condensed', sans-serif;
 }
+body{
+    background-image: url(https://vignette.wikia.nocookie.net/galavant/images/5/50/Wiki-background/revision/latest?cb=20150715225327);
 
-
-
-wrapper{
-    width: 100%;
+    background-size: cover;
 
 }
-.one{
+
+.wrapper{
+    background-color: white;
+    border:1px solid  #2427ff;
     width: 480px;
     display:block;
-    margin: 0 auto;
-    border:1px solid  #2427ff;
-
-
+    margin: 50px auto;
+}
+.one{
+    display:block;
+    padding: 10px 30px;
+    box-sizing: border-box;
 }
 h2{
     color: #2427ff;
-    margin-top: 20px;
-    margin-left: 20px;
+   margin-bottom: 10px;
 }
 img{
-    width:460px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-
-
+    display: block;
+    width:100%;
+    padding-bottom:15px;
+    padding-top: 15px;
 }
 p>b{
     color: #2427ff;
-    margin-left: 20px;
     font-size: 15px;
-
 }
 p{
     margin: 20px;
     font-size: 12px;
     line-height: 18px;
+    text-align: justify;
 }
 
+  .offer{
+    border-top:2px solid #2427ff;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-top: 20px;
+}
+  .offer>h2{
+      margin-top: 40px;
+  }
+  .list{
+      display: block;
+     text-align: center;
+  }
+ul{
+    display: inline-block;
+}
+ li{
+display: list-item;
+    color:#2427ff;
+  }
+  .list ul {
+      display: inline-block;
+      list-style: none;
+  }
+
+
+ul {
+    list-style-image:url("img/4.png");
+}
