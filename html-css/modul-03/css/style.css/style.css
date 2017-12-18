@@ -55,7 +55,10 @@ p{
   }
   .list{
       display: block;
-     text-align: center;
+  }
+  .two .one{
+      float:left;
+      margin-left:40px;
   }
 ul{
     display: inline-block;
@@ -71,5 +74,5 @@ display: list-item;
 
 
 ul {
-    list-style-image:url("img/4.png");
+    list-style-image:url("..img/4.png");
 }
