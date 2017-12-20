@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.task > .one, .two, .three, .one-1, .two-2,
+.three-3, .one-11, .two-22, .three-33,
+ .one-111, .two-222, .three-333,
+ .one-1111, .two-2222, .three-3333
+{
+    width: 100px;
+    height: 100px;
+    border:1px solid #01012f;
+    display: block;
+    margin: auto;
+
+}
+.task-1{
+    margin-top:100px;
+}
+
+.one{
+    background-color: #ff180e;
+
+}
+
+
+.two{
+    background-color: #2dff3e;
+    position: relative;
+    left: 50px;
+    bottom:50px;
+}
+.three{
+    background-color: #815cff;
+    position: relative;
+    left: 100px;
+    bottom:100px;
+}
+
+/*2222222222222*/
+
+.one-1{
+    background-color: #ff5ff6;
+}
+
+
+.two-2{
+    background-color: #fdff41;
+    position: relative;
+    left: 50px;
+    bottom:50px;
+    z-index: 20;
+}
+.three-3 {
+    background-color: #62ffe4;
+    position: relative;
+    left: 100px;
+    bottom:100px;
+    z-index: 10;
+
+}
+
+/*33333333333333333333*/
+
+.one-11{
+    background-color: #ff5ff6;
+    position: relative;
+
+    z-index: 20;
+}
+
+
+.two-22{
+    background-color: #fdff41;
+    position: relative;
+    left: 70px;
+    bottom:50px;
+    z-index: 10;
+}
+.three-33 {
+    background-color: #62ffe4;
+    position: relative;
+   left: 120px;
+    bottom:80px;
+    z-index: 20;
+}
+/*44444444444444444444*
+/
+ */
+.one-111{
+    background-color: #ff180e;
+    position: relative;
+    z-index: 30;
+
+}
+
+
+.two-222{
+    background-color: #2dff3e;
+    position: relative;
+    left: 50px;
+    bottom:50px;
+    z-index: 20;
+}
+.three-333{
+    background-color: #815cff;
+    position: relative;
+    left: 100px;
+    bottom:100px;
+    z-index: 10;
+}
+
+/*555555555555*/
+
+.one-1111{
+    background-color: #ff180e;
+    position:relative;
+    width: 800px;
+    height: 500px;
+}
+
+
+.two-2222 {
+    background-color: #2dff3e;
+    position: relative;
+    bottom:450px;
+    left: 50px;
+}
+.three-3333 {
+    background-color: #815cff;
+    position: relative;
+    bottom:250px;
+    left: 650px;
+}
+
+/*666666666666666*/
+
+.task-6{
+    width: 200px;
+    height:400px;
+    border: 1px solid #ff180e;
+    margin: auto;
+}
+.task > .one-61, .two-62, .three-63{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    margin :auto;
+
+}
+.one-61 {
+    background-color: #ff180e;
+    position: relative;
+    top:20px;
+}
+
+
+.two-62{
+    background-color: #2dff3e;
+    position: relative;
+    top:40px;
+
+}
+.three-63 {
+    background-color: #815cff;
+    position: relative;
+    top:60px;
+
+}
+/*7777777777777777777*/
+.task-7{
+
+    width: 700px;
+    height:500px;
+    border: 1px solid #bafffa;
+    margin: auto;
+    background-color: #bafffa;
+}
+.one-71{
+    width: 500px;
+    height:500px;
+    border-radius: 50%;
+    background-color: #2dff3e;
+    margin: auto;
+}
+.two-72, .three-73{
+    display: inline-block;
+    position:relative;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #f7f6ff;
+    margin: auto;
+    top: 100px;
+    left:100px;
+
+
+}
+.three-73{
+    left:200px;
+
+}
+.four-74{
+    position: relative;
+    width: 50px;
+    height:50px;
+    background-color: #c2485b;
+   left:225px;
+    top:125px;
+
+
+}
+.five-75{
+    position: relative;
+    width: 125px;
+    height:25px;
+    background-color: #c2485b;
+    left:185px;
+    top:185px;
+
+
+}
+/*88888888888888888888*/
+.wrapper>.task-8{
+    position:fixed;
+    top:0;
+    width: 900px;
+
+}
+
+.one-81{
+    width: 100%;
+    height: 100px;
+    background-color: #ff180e;
+}
+.task-9>p{
+   border: 3px solid #ff180e;
+    padding: 45px;
+}
+.task-8>h3{
+    display: inline-block;
+
+}
+.task-10>p{
+    border:3px solid #ff180e;
+    padding: 45px;
+    border-radius: 15px;
+}
+
+.wrapper>.task-11{
+    position:fixed;
+    top:0;
+    width: 900px;
+
+}
+.one-101{
+    width: 100%;
+    height: 100px;
+    background-color: #ff180e;
+    margin-top: 50px;
+}
+
