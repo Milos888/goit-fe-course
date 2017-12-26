@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+}
+.main{
+    width: 1600px;
+    /*border: 1px solid #000;*/
+    margin: auto;
+}
+
+
+.navigation{
+    height: 125px;
+    display:flex;
+   flex-direction: row;
+}
+.logo{
+    height: 125px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 0 220px;
+
+}
+
+.band{
+    width: 100%;
+
+}
+.name{
+
+    margin-top: 20px;
+    margin-left: 50px;
+
+
+}
+.name h6{
+    color: #fb9c06;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 36px;
+}
+.name h5{
+    color: #6e6d6b;
+   text-transform: uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 34px;
+}
+
+
+/*list*/
+.list{
+    display:flex;
+    width: 1000px;
+    list-style: none;
+    padding-left: 50px;
+
+}
+/*.item ul{*/
+    /*display:flex;*/
+    /*justify-content: flex-end;*/
+    /*!*flex-direction: column;*!*/
+    /*text-decoration: none;*/
+    /*list-style: none;*/
+/*}*/
+
+
+.list-item  {
+    /*flex-wrap: wrap;*/
+    width: 50px;
+   /*flex-direction: column;*/
+    margin-left: 70px;
+    line-height:20px;
+
+
+    /*width: 90px;*/
+    /*height: 90px;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
+    /*border: 1px solid #0f4781;*/
+    /*text-decoration: none;*/
+    /*}*/
+}
+.list-item i{
+
+
+    /*margin-left: 50px;*/
+    /*font-family: 'Mukta Mahee', sans-serif;*/
+    /*font-size: 34px;*/
+    /*text-align: center;*/
+}
+.list-item a{
+    /*margin-left: -15px;*/
+    text-decoration: none;
+    color:#6e6d6b;
+    font-size: 18px;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+
+.fa {
+    font-size: 30px;
+    color: #6a6a6a;
+    text-align: center;
+    padding-top: 30px;
+    padding-left:10px;
+}
+
+.picture{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/1.jpg);
+    width: 1600px;
+    height:400px ;
+    justify-content: center;
+    border-top: 4px solid #fb9c06;
+    border-bottom: 4px solid #fb9c06;
+}
+.like{
+    width: 380px;
+    height: 65px;
+    background-color: #fb9c06 ;
+    font-size:25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+  color: #6e6d6b;
+    line-height: 60px;
+    margin-left: 195px;
+
+
+}
+.like_one{
+    width: 380px;
+    height: 65px;
+    background-color: #6e6d6b;
+    opacity: 0.5;
+    font-size:25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+    line-height: 60px;
+   color: #fb9c06 ;
+    margin-left: 195px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.content{
+    width: 1205px;
+    /*border:1px solid #6e6d6b;*/
+    margin: auto;
+}
+.content_text{
+
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text_column p{
+    padding: 15px 15px 0 15px;
+line-height:25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size:14px;
+}
+.text_column h3{
+    font-family: 'Mukta Mahee', sans-serif;
+    margin-left:230px;
+    color: #fb9c06;
+    font-size:14px;
+}
+.text_column a{
+    color: #fb9c06;
+    text-decoration: none;
+}
+h4>a{
+    color: #fb9c06;
+    font-size: 25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    margin-left: 500px;
+
+
+}
+h4{
+    margin-top: 50px;
+}
+.meet{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+
+}
+.meet_one{
+    width: 315px;
+}
+.meet_one img{
+    margin-top: 20px;
+
+}
+.meet img {
+    border: 10px solid #fb9c06;
+    border-radius: 50%;
+}
+.meet_one p{
+    padding: 10px;
+    color:#6e6d6b;
+    line-height: 25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 13px;
+}
+
+.meet-one {
+
+text-align: center;
+    font-size: 18px;
+    color: #6e6d6b;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+.colortext{
+    color: #fb9c06;
+
+}
+.send p{
+    margin-top: 50px;
+    color: #fb9c06;
+
+}
+.form{
+    margin-left: 70px;
+    width:1055px;
+    height: 30px;
+
+}
+.forn{
+    margin-left: 50px;
+    width:1055px;
+    height: 30px;
+
+}
+button {
+    width: 175px;
+    height: 35px;
+    padding: 5px 15px 5px 15px;
+    background-color: #fb9c06; ;
+    border-radius: 3px;
+    margin-left: 995px;
+    margin-top: 100px;
+
+}
+footer{
+    height: 75px;
+    width: 1600px;
+    /*border: 1px solid #000;*/
+    margin: auto;
+    background-color: #fb9c06;
+    margin-top: 50px;
+}

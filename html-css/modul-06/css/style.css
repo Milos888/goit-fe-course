@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+wrapper{
+    width: 100%;
+}
+.task_one{
+    width: 900px;
+    margin: auto;
+
+
+
+}
+ .list{
+    width: 700px;
+
+    float: right;
+}
+.list>li{
+list-style: none;
+ display: inline-block;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*li a {*/
+    /*text-decoration: none;*/
+    /*color: #666;*/
+    /*border: 1px solid #ccc;*/
+    /*background-color: #f0f0f0;*/
+    /*padding: 10px;*/
+
+}
+li a:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+
+.two_task{
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+    display:block;
+
+
+}
+.lists {
+    display:block;
+    list-style: none;
+    padding: 10px;
+}
+.two>a{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    /*background-color: #455;*/
+    padding: 20px;
+    display: block;
+}
+.two:nth-child(3n+1){
+  background-color: #88292F;
+}
+.two:hover:nth-child(3n+2){
+    background-color: #5DB7DE;
+}
+
+.two:nth-child(3n+3){
+    background-color: #0D5D56;
+}
+
+
+
+.three_task{
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+    list-style: none;
+
+
+}
+
+.three::before{
+    content:"\2192";
+    margin-right: 20px;
+    text
+}
+.four{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.four li{
+    display: inline-block;
+}
+.for:target {
+    color:red;
+
+}

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+}
+.main{
+    width: 1600px;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+
+.navigation{
+    height: 125px;
+    display:flex;
+   flex-direction: row;
+}
+.logo{
+    height: 125px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 0 220px;
+
+}
+
+.band{
+    width: 100%;
+
+}
+.name{
+
+    margin-top: 20px;
+    margin-left: 50px;
+
+
+}
+.name h6{
+    color: #fb9c06;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 36px;
+}
+.name h5{
+    color: #6e6d6b;
+   text-transform: uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 34px;
+}
+
+
+/*list*/
+.list{
+
+
+
+
+}
+.item{
+    display:flex;
+    flex-direction: row;
+
+
+
+
+}
+.list li{
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 34px;
+}
+.fa{
+    font-size: 100px;
+    color: darkblue;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/1.jpg);
+    width: 1600px;
+    height:400px ;
+    justify-content: center;
+    border-top: 4px solid #fb9c06;
+    border-bottom: 4px solid #fb9c06;
+}
+.like{
+    width: 380px;
+    height: 65px;
+    background-color: #fb9c06 ;
+    font-size:25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+  color: #6e6d6b;
+    line-height: 60px;
+    margin-left: 195px;
+
+
+}
+.like_one{
+width: 380px;
+height: 65px;
+    background-color: #6e6d6b;
+    opacity: 0.5;
+    font-size:25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+    line-height: 60px;
+   color: #fb9c06 ;
+    margin-left: 195px;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+.content{
+    width: 1205px;
+    border:1px solid #6e6d6b;
+    margin: auto;
+}
+.content_text{
+
+}
+.text{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text_column p{
+    padding: 15px 15px 0 15px;
+line-height:25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size:14px;
+}
+.text_column h3{
+    font-family: 'Mukta Mahee', sans-serif;
+    margin-left:230px;
+    color: #fb9c06;
+    font-size:14px;
+}
+.text_column a{
+    color: #fb9c06;
+    text-decoration: none;
+}
+h4>a{
+    color: #fb9c06;
+    font-size: 25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    margin-left: 500px;
+
+
+}
+h4{
+    margin-top: 50px;
+}
+.meet{
+  display: flex;
+
+
+}
+.meet_one{
+    width: 325px;
+}
+.meet_one img{
+    margin-top: 20px;
+
+}
+.meet_one p{
+    padding: 20px;
+    color:#6e6d6b;
+    line-height: 25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 13px;
+}
+
+.meet-one h4{
+
+}
